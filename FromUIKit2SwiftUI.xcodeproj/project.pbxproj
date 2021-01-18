@@ -14,6 +14,7 @@
 		8A2EC93525B5F89400D18608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A2EC93425B5F89400D18608 /* Assets.xcassets */; };
 		8A2EC93825B5F89400D18608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2EC93625B5F89400D18608 /* LaunchScreen.storyboard */; };
 		8A2EC94025B5FBB100D18608 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2EC93F25B5FBB100D18608 /* AppView.swift */; };
+		8A5BAAD425B60803004A994D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5BAAD325B60802004A994D /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8A2EC93725B5F89400D18608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A2EC93925B5F89400D18608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A2EC93F25B5FBB100D18608 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		8A5BAAD325B60802004A994D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8A2EC93F25B5FBB100D18608 /* AppView.swift */,
 				8A2EC92F25B5F89200D18608 /* ViewController.swift */,
 				8A2EC93125B5F89200D18608 /* Main.storyboard */,
+				8A5BAAD325B60802004A994D /* ContentView.swift */,
 				8A2EC93425B5F89400D18608 /* Assets.xcassets */,
 				8A2EC93625B5F89400D18608 /* LaunchScreen.storyboard */,
 				8A2EC93925B5F89400D18608 /* Info.plist */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A2EC94025B5FBB100D18608 /* AppView.swift in Sources */,
+				8A5BAAD425B60803004A994D /* ContentView.swift in Sources */,
 				8A2EC93025B5F89200D18608 /* ViewController.swift in Sources */,
 				8A2EC92C25B5F89200D18608 /* AppDelegate.swift in Sources */,
 				8A2EC92E25B5F89200D18608 /* SceneDelegate.swift in Sources */,

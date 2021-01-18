@@ -1,5 +1,5 @@
 //
-//  AppView.swift
+//  ContentView.swift
 //  FromUIKit2SwiftUI
 //
 //  Created by Iurie Guzun on 2021-01-18.
@@ -8,15 +8,14 @@
 
 import SwiftUI
 
-struct AppView: View {
+struct ContentView: View {
     var body: some View {
-        print("AppView Accessed!")
-        return Text("Hello, Old World!")
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct AppView_Previews: PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        AppView()
+        ContentView()
     }
 }
